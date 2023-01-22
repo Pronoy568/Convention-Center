@@ -1,0 +1,58 @@
+/* Common style */
+* {
+  margin: 0;
+}
+
+/* Mixed section design */
+.arrow-color {
+  background-color: rgba(245, 243, 243, 0.037);
+}
+.app img {
+  width: 25%;
+}
+.btn-color-pink {
+  background-color: #fef5fb;
+  border: 0;
+}
+.position-hot-parant {
+  position: relative;
+  left: 250px;
+  top: -82px;
+}
+.toast-design {
+  position: relative;
+  left: 100px;
+  top: -220px;
+  border-left: 5px solid #3f87f5;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 576px) {
+  .carousel {
+    height: 80vh;
+  }
+  .carousel img {
+    height: 90vh;
+  }
+  .moment img {
+    width: 95%;
+  }
+  .people img {
+    width: 100%;
+  }
+  .app img {
+    width: 70%;
+  }
+  .position-hot-parant {
+    position: relative;
+    left: 0px;
+    top: -92px;
+  }
+  .toast-design {
+    position: relative;
+    left: 10px;
+    top: -250px;
+  }
+}
