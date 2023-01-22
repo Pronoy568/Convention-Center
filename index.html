@@ -38,18 +38,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 fw-semibold">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#home"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">About Us</a>
+                  <a class="nav-link active" href="#about">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Contact</a>
+                  <a class="nav-link active" href="#Subscribe">Subscribe</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Subscribe</a>
+                  <a class="nav-link active" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -57,7 +57,7 @@
         </nav>
       </section>
       <!-- Carousel Section -->
-      <section>
+      <section id="home">
         <div id="carouselExampleDark" class="carousel carousel-white slide">
           <div class="carousel-indicators">
             <button
@@ -98,12 +98,17 @@
                   happen. <br />
                   Let us do the searching for you!
                 </p>
-                <button
-                  type="button"
-                  class="btn btn-light px-4 py-2 mb-lg-4 text-primary fw-bolder"
+                <a
+                  href="https://akommo.com/blog/corporate-event-tips/the-perfect-venue-for-your-next-event"
+                  target="_blank"
                 >
-                  Book Now
-                </button>
+                  <button
+                    type="button"
+                    class="btn btn-light px-4 py-2 mb-lg-4 text-primary fw-bolder"
+                  >
+                    Book Now
+                  </button>
+                </a>
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
@@ -176,6 +181,7 @@
       <!-- Every Moment is precious -->
       <section
         class="container d-flex flex-column flex-md-row align-items-center py-5 mt-5 mt-md-0"
+        id="about"
       >
         <div class="order-2 order-md-1 moment">
           <img src="./images/wedding.png" alt="wedding" />
@@ -373,7 +379,7 @@
         </section>
       </section>
       <!-- Frequently Asked Questions -->
-      <section>
+      <section id="Subscribe">
         <h1 class="text-center pb-4 mb-5 fs-1 fw-bolder">
           Frequently Asked Questions
         </h1>
@@ -475,6 +481,7 @@
       <footer
         class="bg-black d-flex justify-content-evenly align-items-center pb-5 flex-column flex-md-row text-white"
         style="height: 280px"
+        id="contact"
       >
         <div class="pt-5">
           <p>© 2020 bike. All rights reserved</p>
